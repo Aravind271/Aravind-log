@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A quiet personal blog about student life, Japan, technology, and notes along the way." />
+  <title>aravind.log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+    <span class="theme-toggle__track">
+      <span class="theme-toggle__knob"></span>
+    </span>
+    <span class="theme-toggle__label">MODE</span>
+  </button>
+
+  <main class="shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">aravind.log</a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#posts">posts</a>
+        <a href="#about">about</a>
+        <a href="#links">links</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">PERSONAL NOTES / 2026—</p>
+      <h1>A small place for things I want to remember.</h1>
+      <p class="intro">
+        I’m Aravind. I write about student life in Japan, things I’m learning,
+        technology, places I visit, and whatever feels worth keeping.
+      </p>
+    </section>
+
+    <section class="section" id="posts">
+      <div class="section-heading">
+        <h2>Latest posts</h2>
+        <span>03 entries</span>
+      </div>
+
+      <div class="post-list">
+        <a class="post-row" href="posts/before-japan.html">
+          <div>
+            <time datetime="2026-09-18">2026.09.18</time>
+            <h3>Before Japan</h3>
+            <p>A few thoughts before moving and starting a completely new chapter.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="post-row" href="posts/why-this-blog.html">
+          <div>
+            <time datetime="2026-09-11">2026.09.11</time>
+            <h3>Why I made this blog</h3>
+            <p>Nothing serious — just a quiet corner of the internet to keep notes.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="post-row" href="posts/learning-in-public.html">
+          <div>
+            <time datetime="2026-09-10">2026.09.10</time>
+            <h3>Learning in public</h3>
+            <p>Small notes from learning programming, networking, and everything around it.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-heading">
+        <h2>About</h2>
+      </div>
+      <div class="about-copy">
+        <p>
+          This isn’t meant to be a polished publication. It’s closer to a personal notebook:
+          short entries, photos, useful discoveries, random thoughts, and memories from student life.
+        </p>
+        <p>
+          Expect posts about Japan, university, programming, networking, everyday life,
+          and whatever I happen to be curious about.
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer" id="links">
+      <p>© 2026 Aravind</p>
+      <div class="footer-links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:hello@example.com">Email</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
